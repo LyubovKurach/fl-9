@@ -16,24 +16,24 @@
           <img src="logo.png" alt="logo">
           <h1> <b> HTML Elements </b> </h1> 
           <hr>
-          <div> <b> <font size="4"> <a href=""> Home</a>  <a href="">Headers</a>  <a href="">Table</a>  <a href="">List</a>  <a href="">Text formats</a>  <a href="">Blockquotes </a> </font> </b>  </div>
+          <div> <b> <font size="3"> <a href=""> Home</a>  <a href="">Headers</a>  <a href="">Table</a>  <a href="">List</a>  <a href="">Text formats</a>  <a href="">Blockquotes </a> </font> </b> </div>
           <hr>
-          <p> <h3>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header </h3> </p>
-          <p> <h2> Header 2 </h2> </p>
-          <p> <h3> Header 3 </h3></p>
-          <p> <h4> Header 4 </h4></p>
-          <p> <h5> Header 5 </h5></p>
-          <p> <h6> Header 6 </h6></p>
+          <h3>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header </h3> 
+          <h2> Header 2 </h2> 
+          <h3> Header 3 </h3>
+          <h4> Header 4 </h4>
+          <h5> Header 5 </h5>
+          <h6> Header 6 </h6>
 
-          <p> <h2> Table </h2> </p>
+          <h2> Table </h2>
 
-          <h5><table>
+            <table>
               <tr>
                 <td> Header </td>
                 <td> Header </td>
                 <td> Header </td>
               </tr>
-                <td> <b> Strong</b> </td>
+                <td> <strong>> Strong </strong> </td>
                 <td>CO<sub>2</sub></td>
                 <td> <a href=""> Some link </a> </td>
               </tr>
@@ -47,32 +47,30 @@
                 <td>5<sup>3</sup>=125</td>
                 <td> <ins>Inserted </ins></td>
               </tr>
-            </table></h5>
+            </table>
 
-            <p> <h2> Unordered List </h2> </p>
-            <h4><ul>
-            <li>List item 11</li>
-            <li>List item 2
-                <ul>
-                    <li>Some nested list item 1</li>
-                </ul>
-                <li>List item 3</li>
-            </li>
-            </ul><h4>
+            <h2> Unordered List </h2>
+            <ul>
+              <li>List item 11</li>
+                <li>List item 2</li>
+                    <ul>
+                        <li>Some nested list item 1</li>
+                    </ul>
+                  <li>List item 3</li>
+            </ul>
 
-            <p> <h2> Ordered List </h2> </p>
-            <h4><ol>
+            <h2> Ordered List </h2>
+            <ol>
             <li>List item 1</li>
             <li>List item 2</li>
-            <li>List item 2
+            <li>List item 2</li>
               <ul>
                 <li type="A">Some nested list item 1</li>
               </ul>
             <li>List item 3</li>
-            </li>
-            </ol><h4>
+            </ol>
 
-            <p> <h2> Definition List </h2> </p>
+            <h2> Definition List </h2>
             <dl>
                 <dt>defines terms 1</dt>
                     <dd>description 1</dd>
@@ -80,12 +78,15 @@
                     <dd>description 2</dd>
             </dl>
 
-            <p> <h2> Details </h2> </p>
-            <i class="fas fa-angle-down"></i>
-            <p>Some details element (open)
-            <br>Here are more details about the details.</p>
-            <p>Some details element (close)
-            <br>Here are more details about the details.</p>
+            <h2> Details </h2>
+            <details open="">
+            <summary>Some details element (open) </summary>
+            <p>Here are more details about the details.</p>
+            </details>
+            <details>
+            <summary>Some details element (close)</summary>
+            <p>Here are more details about the details.</p>
+            </details>
 
             <hr>
 
@@ -121,9 +122,6 @@ both           spaces and
             <br><a href=""> Elon Musk </a> </blockquote>  </p>
 
             <footer> © Copyright Epam Systems </footer>
-
-
-
 
         </div>
       </div>
