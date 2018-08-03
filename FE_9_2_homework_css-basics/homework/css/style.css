@@ -1,5 +1,47 @@
-/* 
+* {
+  margin: 0;
+  padding: 0;
+}
 
-write your code here
+@media print { 
+	@page {
+		margin-top: 1cm;
+	}
+	
+body{
+	background: white;
+}
 
-*/
+.tm-sidebar {
+	display: none;
+}
+
+.tm-banner{
+	height: 150px;
+	padding: unset;
+}
+
+.tm-main-content {
+ margin: 0 auto;
+ padding: 0;
+ }
+
+
+.tm-section-title{
+	color: blue;
+}
+
+.flex-item{
+	direction: column;
+
+}
+.pad {
+	padding: 0;
+
+}
+
+
+
+
+
+}
